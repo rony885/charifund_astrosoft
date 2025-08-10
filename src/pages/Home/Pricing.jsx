@@ -3,7 +3,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <section className="blog">
+    <section className="blog" id="pricing">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-xl-7">

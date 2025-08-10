@@ -1,11 +1,27 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/img-redundant-alt */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const Header = ({ toggleMenu, menuOpen, toggleMenuu, menuOpenn }) => {
+const Header = ({ toggleMenu, menuOpen, toggleMenuu }) => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header className="header header-secondary">
+    // <header className="header header-secondary">
+    <header
+      className={`header header-secondary ${isSticky ? "sticky-header" : ""}`}
+    >
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -13,30 +29,30 @@ const Header = ({ toggleMenu, menuOpen, toggleMenuu, menuOpenn }) => {
               <nav className="navbar p-0">
                 <div className="navbar-logo">
                   <Link to="/">
-                    <img src="/assets/images/logo.png" alt="Image" />
+                    <img src="/assets/images/logo.png" alt="Imagee" />
                   </Link>
                 </div>
                 <div className="navbar__menu-wrapper">
                   <div className="navbar__menu d-none d-xl-block">
                     <ul className="navbar__list">
                       <li className="navbar__item  nav-fade">
-                        <Link to="/">Home</Link>
+                        <a href="#home">Home</a>
                       </li>
 
                       <li className="navbar__item nav-fade">
-                        <Link to="/">About Us</Link>
+                        <a href="#about">About Us</a>
                       </li>
 
                       <li className="navbar__item  nav-fade">
-                        <Link to="/">Services</Link>
+                        <a href="#services">Services</a>
                       </li>
 
                       <li className="navbar__item  nav-fade">
-                        <Link to="/">Pricing</Link>
+                        <a href="/#pricing">Pricing</a>
                       </li>
 
                       <li className="navbar__item nav-fade">
-                        <Link to="/">Contact Us</Link>
+                        <a href="#contact">Contact Us</a>
                       </li>
                     </ul>
                   </div>

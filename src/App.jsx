@@ -14,6 +14,9 @@ import Loader from "./components/Loader";
 import ScrolltoTop from "./components/ScrolltoTop";
 import TemplateOption from "./components/TemplateOption";
 import OffCanvas from "./components/OffCanvas";
+import NotFound from "./components/NotFound";
+import TermsConditions from "./pages/TermsConditions/TermsConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy.jsx/PrivacyPolicy";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -80,6 +83,9 @@ function App() {
               <OffCanvas closeMenuu={closeMenuu} menuOpenn={menuOpenn} />
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/terms-conditions" element={<TermsConditions />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                <Route path="*" element={<NotFound />} />
               </Routes>
               <Footer />
               <ScrolltoTop />

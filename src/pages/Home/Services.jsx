@@ -244,7 +244,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="difference">
+    <section className="difference" id="services">
       <div className="container">
         {/* Section Header */}
         <div className="row justify-content-center">

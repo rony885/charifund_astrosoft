@@ -12,7 +12,7 @@ import Contact from "./Contact";
 
 const Home = () => {
   return (
-    <>
+    <div className="" id="home">
       <BannerSection />
       <About />
       <CompletedThings />
@@ -23,7 +23,7 @@ const Home = () => {
       <Pricing />
       <Client />
       <Contact />
-    </>
+    </div>
   );
 };
 

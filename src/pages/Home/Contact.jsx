@@ -4,7 +4,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="contact-main volunteer">
+    <section className="contact-main volunteer" id="contact">
       <div className="container">
         <div className="row gutter-40">
           <div className="col-12 col-xl-6">

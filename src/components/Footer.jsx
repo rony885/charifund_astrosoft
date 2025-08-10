@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
-/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -49,9 +47,9 @@ const Footer = () => {
               data-aos-duration="1000"
             >
               <div className="footer-two__widget-logo">
-                <a href="index-2.html">
+                <Link to="index-2">
                   <img src="assets/images/logo-light.png" alt="Image" />
-                </a>
+                </Link>
               </div>
               <div className="footer-two__widget-content">
                 <p>
@@ -59,38 +57,38 @@ const Footer = () => {
                   contributions quickly and safely. Choose from various.
                 </p>
                 <div className="social">
-                  <a
-                    href="https://www.facebook.com/"
+                  <Link
+                    to="https://www.facebook.com/"
                     target="_blank"
                     aria-label="share us on facebook"
                     title="facebook"
                   >
                     <i className="fa-brands fa-facebook-f"></i>
-                  </a>
-                  <a
-                    href="https://vimeo.com/"
+                  </Link>
+                  <Link
+                    to="https://vimeo.com/"
                     target="_blank"
                     aria-label="share us on vimeo"
                     title="vimeo"
                   >
                     <i className="fa-brands fa-vimeo-v"></i>
-                  </a>
-                  <a
-                    href="https://x.com/"
+                  </Link>
+                  <Link
+                    to="https://x.com/"
                     target="_blank"
                     aria-label="share us on twitter"
                     title="twitter"
                   >
                     <i className="fa-brands fa-twitter"></i>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/"
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/"
                     target="_blank"
                     aria-label="share us on linkedin"
                     title="linkedin"
                   >
                     <i className="fa-brands fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -113,29 +111,29 @@ const Footer = () => {
               <div className="footer-two__widget-content">
                 <ul>
                   <li>
-                    <a href="about-us.html">
+                    <Link to="about-us">
                       <i className="fa-solid fa-arrow-right"></i>About Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="blog-list.html">
+                    <Link to="blog-list">
                       <i className="fa-solid fa-arrow-right"></i>Our News
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="our-causes.html">
+                    <Link to="our-causes">
                       <i className="fa-solid fa-arrow-right"></i>Our Campaign
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="faq.html">
+                    <Link to="faq">
                       <i className="fa-solid fa-arrow-right"></i>FAQ
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="contact-us.html">
+                    <Link to="contact-us">
                       <i className="fa-solid fa-arrow-right"></i>Get A Quote
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -159,30 +157,30 @@ const Footer = () => {
               <div className="footer-two__widget-content">
                 <ul>
                   <li>
-                    <a href="our-causes.html">
+                    <Link to="our-causes">
                       <i className="fa-solid fa-arrow-right"></i>Our Causes
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="events.html">
+                    <Link to="events">
                       <i className="fa-solid fa-arrow-right"></i>Education
                       Support
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="our-causes.html">
+                    <Link to="our-causes">
                       <i className="fa-solid fa-arrow-right"></i>Our Campaign
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="our-causes.html">
+                    <Link to="our-causes">
                       <i className="fa-solid fa-arrow-right"></i>Food Support
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="our-causes.html">
+                    <Link to="our-causes">
                       <i className="fa-solid fa-arrow-right"></i>Health Support
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -206,24 +204,24 @@ const Footer = () => {
               <div className="footer-two__widget-content footer-two__widget-content--contact">
                 <ul>
                   <li>
-                    <a
-                      href="https://maps.app.goo.gl/Gr9pTNqz5FRNrjQw8"
+                    <Link
+                      to="https://maps.app.goo.gl/Gr9pTNqz5FRNrjQw8"
                       target="_blank"
                     >
                       <i className="fa-solid fa-location-dot"></i>455 West
                       Orchard Street Kings Mountain, NC 280867
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="tel:2305-587-3407">
+                    <Link to="tel:2305-587-3407">
                       <i className="fa-solid fa-phone"></i>+088 (246) 642-27-10
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="mailto:support@example.com">
+                    <Link to="mailto:support@example.com">
                       <i className="fa-regular fa-envelope"></i>
                       example@email.com
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -238,7 +236,7 @@ const Footer = () => {
               <div className="footer-two__copyright-inner text-center text-lg-start">
                 <p>
                   Copyright &copy; <span id="copyrightYear"></span>
-                  <a href="index-2.html">Charifund</a>. All rights reserved.
+                  <Link to="index-2">Charifund</Link>. All rights reserved.
                 </p>
               </div>
             </div>
@@ -246,13 +244,13 @@ const Footer = () => {
               <div className="footer__bottom-left">
                 <ul className="footer__bottom-list justify-content-center justify-content-lg-end">
                   <li>
-                    <a href="terms-conditions.html">Terms & Conditions</a>
+                    <Link to="/terms-conditions">Terms & Conditions</Link>
                   </li>
                   <li>
-                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <Link to="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="privacy-policy.html">Cookie Settings</a>
+                    <Link to="/privacy-policy">Cookie Settings</Link>
                   </li>
                 </ul>
               </div>
