@@ -36,7 +36,7 @@ const Header = ({ toggleMenu, menuOpen, toggleMenuu }) => {
                   <div className="navbar__menu d-none d-xl-block">
                     <ul className="navbar__list">
                       <li className="navbar__item  nav-fade">
-                        <a href="#home">Home</a>
+                        <a href="#">Home</a>
                       </li>
 
                       <li className="navbar__item nav-fade">

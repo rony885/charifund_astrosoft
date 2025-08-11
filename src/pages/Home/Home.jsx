@@ -7,12 +7,13 @@ import WorkProcess from "./WorkProcess";
 // import Portfolio from "./Portfolio";
 import TechnologyUsed from "./TechnologyUsed";
 import Pricing from "./Pricing";
+import Blog from "./Blog";
 import Client from "./Client";
 import Contact from "./Contact";
 
 const Home = () => {
   return (
-    <div className="" id="home">
+    <>
       <BannerSection />
       <About />
       <CompletedThings />
@@ -21,9 +22,10 @@ const Home = () => {
       {/* <Portfolio /> */}
       <TechnologyUsed />
       <Pricing />
+      <Blog />
       <Client />
       <Contact />
-    </div>
+    </>
   );
 };
 
