@@ -1,20 +1,22 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Topbar from "./components/Topbar";
 import MobileMenu from "./components/MobileMenu";
 import Footer from "./components/Footer";
-import Home from "./pages/Home/Home";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect, useState } from "react";
+
 import Top from "./components/Top";
 import Loader from "./components/Loader";
 import ScrolltoTop from "./components/ScrolltoTop";
 import TemplateOption from "./components/TemplateOption";
 import OffCanvas from "./components/OffCanvas";
 import NotFound from "./components/NotFound";
+
+import Home from "./pages/Home/Home";
 import TermsConditions from "./pages/TermsConditions/TermsConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy.jsx/PrivacyPolicy";
 

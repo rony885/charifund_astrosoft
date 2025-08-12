@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
+
 import React from "react";
 
 const PrivacyPolicyBanner = () => {
@@ -15,15 +15,15 @@ const PrivacyPolicyBanner = () => {
         </div>
       </div>
       <div className="banner-bg">
-        <img src="assets/images/banner/banner-bg.png" alt="Image" />
+        <img src="/assets/images/banner/banner-bg.png" alt="Imagee" />
       </div>
       <div className="shape">
-        <img src="assets/images/shape.png" alt="Image" />
+        <img src="/assets/images/shape.png" alt="Imagee" />
       </div>
       <div className="sprade" data-aos="zoom-in" data-aos-duration="1000">
         <img
-          src="assets/images/sprade-base.png"
-          alt="Image"
+          src="/assets/images/sprade-base.pnge"
+          alt="Imagee"
           className="base-img"
         />
       </div>

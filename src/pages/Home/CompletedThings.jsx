@@ -86,7 +86,7 @@ const CompletedThings = () => {
       </div>
       <div className="poor">
         <img
-          src="assets/images/poor-two.png"
+          src="/assets/images/poor-two.png"
           alt="Imagee"
           className="parallax-image"
         />
@@ -98,7 +98,7 @@ const CompletedThings = () => {
         data-aos-delay="300"
       >
         <img
-          src="assets/images/cta/shape-left.png"
+          src="/assets/images/cta/shape-left.png"
           alt="Imagee"
           className="base-img"
         />

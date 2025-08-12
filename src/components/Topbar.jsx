@@ -1,5 +1,5 @@
-/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Topbar = () => {
   return (
@@ -13,15 +13,15 @@ const Topbar = () => {
                   <div className="topbar__list-wrapper">
                     <ul className="topbar__list">
                       <li>
-                        <a href="mailto:support@example.com">
+                        <Link to="mailto:support@example.com">
                           <i className="fa-regular fa-envelope"></i>
                           support@example.com
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="tel:2305-587-3407">
+                        <Link to="tel:2305-587-3407">
                           <i className="fa-solid fa-phone"></i>+2(305) 587-3407
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -30,7 +30,7 @@ const Topbar = () => {
                   <div className="topbar__extra text-center">
                     <p>
                       <i className="icon-heart-hand"></i> Are you ready to help
-                      them? Let's become a volunteer!
+                      them? Let's become Link volunteer!
                     </p>
                   </div>
                 </div>
@@ -56,38 +56,38 @@ const Topbar = () => {
                       </select>
                     </div>
                     <div className="social">
-                      <a
-                        href="https://www.facebook.com/"
+                      <Link
+                        to="https://www.facebook.com/"
                         target="_blank"
                         aria-label="share us on facebook"
                         title="facebook"
                       >
                         <i className="fa-brands fa-facebook-f"></i>
-                      </a>
-                      <a
-                        href="https://vimeo.com/"
+                      </Link>
+                      <Link
+                        to="https://vimeo.com/"
                         target="_blank"
                         aria-label="share us on vimeo"
                         title="vimeo"
                       >
                         <i className="fa-brands fa-vimeo-v"></i>
-                      </a>
-                      <a
-                        href="https://x.com/"
+                      </Link>
+                      <Link
+                        to="https://x.com/"
                         target="_blank"
                         aria-label="share us on twitter"
                         title="twitter"
                       >
                         <i className="fa-brands fa-twitter"></i>
-                      </a>
-                      <a
-                        href="https://www.linkedin.com/"
+                      </Link>
+                      <Link
+                        to="https://www.linkedin.com/"
                         target="_blank"
                         aria-label="share us on linkedin"
                         title="linkedin"
                       >
                         <i className="fa-brands fa-linkedin-in"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

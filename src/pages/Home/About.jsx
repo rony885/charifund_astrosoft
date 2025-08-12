@@ -1,5 +1,5 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -10,36 +10,39 @@ const About = () => {
             <div className="help__thumb">
               <div className="help__thumb-inner">
                 <div className="thumb-top thumb">
-                  <img src="assets/images/help/thumb-top.png" alt="Image" />
+                  <img src="assets/images/help/thumb-top.png" alt="Imagee" />
                 </div>
                 <div
                   className="thumb-lg thumb"
                   data-aos="fade-left"
                   data-aos-duration="1000"
                 >
-                  <img src="assets/images/help/thumb-lg.png" alt="Image" />
+                  <img src="/assets/images/help/thumb-lg.png" alt="Imagee" />
                   <div className="video-btn-wrapper">
-                    <a
-                      href="https://www.youtube.com/watch?v=RvreULjnzFo"
+                    <Link
+                      to="https://www.youtube.com/watch?v=RvreULjnzFo"
                       target="_blank"
                       rel="noreferrer"
                       title="video Player"
                       className="open-video-popup"
                     >
                       <i className="icon-play"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="thumb thumb-bottom">
-                  <img src="assets/images/help/thumb-bottom.png" alt="Image" />
+                  <img
+                    src="/assets/images/help/thumb-bottom.png"
+                    alt="Imagee"
+                  />
                 </div>
                 <div className="line">
-                  <img src="assets/images/help/line.png" alt="Image" />
+                  <img src="assets/images/help/line.png" alt="Imagee" />
                 </div>
                 <div className="grid-line">
                   <img
-                    src="assets/images/help/grid.png"
-                    alt="Image"
+                    src="/assets/images/help/grid.png"
+                    alt="Imagee"
                     className="base-img"
                   />
                 </div>
@@ -95,8 +98,8 @@ const About = () => {
                     3,265 Project powerful corporate poor.
                   </li>
                   <li>
-                    <i className="fa-solid fa-circle-check"></i> We give child a
-                    gift of a education
+                    <i className="fa-solid fa-circle-check"></i> We give child
+                    Link gift of Link education
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i> We help
@@ -105,21 +108,21 @@ const About = () => {
                 </ul>
               </div>
               <div className="help__content-cta cta">
-                <a
-                  href="about-us.html"
+                <Link
+                  to="about-us.html"
                   aria-label="more about us"
                   title="about us"
                   className="btn--primary"
                 >
                   More About Us
-                </a>
+                </Link>
                 <div className="contact-btn">
                   <div className="contact-icon">
                     <i className="icon-phone"></i>
                   </div>
                   <div className="contact-content">
                     <p>Phone</p>
-                    <a href="tel:01-793-7938">+236 (456) 896 22</a>
+                    <Link to="tel:01-793-7938">+236 (456) 896 22</Link>
                   </div>
                 </div>
               </div>
@@ -128,13 +131,13 @@ const About = () => {
         </div>
       </div>
       <div className="hand">
-        <img src="assets/images/help/hand.png" alt="Image" />
+        <img src="/assets/images/help/hand.png" alt="Imagee" />
       </div>
       <div className="parasuit">
-        <img src="assets/images/parasuit.png" alt="Image" />
+        <img src="/assets/images/parasuit.png" alt="Imagee" />
       </div>
       <div className="spade">
-        <img src="assets/images/help/spade.png" alt="Image" />
+        <img src="/assets/images/help/spade.png" alt="Imagee" />
       </div>
     </section>
   );

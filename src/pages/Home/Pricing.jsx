@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
@@ -178,12 +177,12 @@ const Pricing = () => {
           </div>
         </div>
         <div className="blog-bg">
-          <img src="assets/images/blog/blog-bg.png" alt="Image" />
+          <img src="/assets/images/blog/blog-bg.png" alt="Imagee" />
         </div>
         <div className="spade">
           <img
-            src="assets/images/blog/spade-base.png"
-            alt="Image"
+            src="/assets/images/blog/spade-base.png"
+            alt="Imagee"
             className="base-img"
           />
         </div>

@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
@@ -34,10 +33,10 @@ const Pricing = () => {
                 <div className="blog__single van-tilt">
                   <div className="blog__single-thumb">
                     <Link to="/blog-details">
-                      <img src="/assets/images/blog/one.png" alt="Image" />
+                      <img src="/assets/images/blog/one.png" alt="Imagee" />
                     </Link>
                     <div className="tag">
-                      <Link to="blog-list.html">
+                      <Link to="/blog-list">
                         <i className="fa-solid fa-tags"></i>Health
                       </Link>
                     </div>
@@ -72,7 +71,7 @@ const Pricing = () => {
                   </div>
                   <img
                     src="assets/images/blog/spade.png"
-                    alt="Image"
+                    alt="Imagee"
                     className="spade-two"
                   />
                 </div>
@@ -89,10 +88,10 @@ const Pricing = () => {
                 <div className="blog__single van-tilt">
                   <div className="blog__single-thumb">
                     <Link to="/blog-details">
-                      <img src="/assets/images/blog/two.png" alt="Image" />
+                      <img src="/assets/images/blog/two.png" alt="Imagee" />
                     </Link>
                     <div className="tag">
-                      <Link to="blog-list.html">
+                      <Link to="/blog-list">
                         <i className="fa-solid fa-tags"></i>Education
                       </Link>
                     </div>
@@ -127,7 +126,7 @@ const Pricing = () => {
                   </div>
                   <img
                     src="/assets/images/blog/spade.png"
-                    alt="Image"
+                    alt="Imagee"
                     className="spade-two"
                   />
                 </div>
@@ -144,10 +143,10 @@ const Pricing = () => {
                 <div className="blog__single van-tilt">
                   <div className="blog__single-thumb">
                     <Link to="/blog-details">
-                      <img src="/assets/images/blog/three.png" alt="Image" />
+                      <img src="/assets/images/blog/three.png" alt="Imagee" />
                     </Link>
                     <div className="tag">
-                      <Link to="blog-list.html">
+                      <Link to="/blog-list">
                         <i className="fa-solid fa-tags"></i>Food
                       </Link>
                     </div>
@@ -182,7 +181,7 @@ const Pricing = () => {
                   </div>
                   <img
                     src="/assets/images/blog/spade.png"
-                    alt="Image"
+                    alt="Imagee"
                     className="spade-two"
                   />
                 </div>
@@ -194,7 +193,7 @@ const Pricing = () => {
             <div className="col-12">
               <div className="section__cta cta text-center">
                 <Link
-                  to="blog-list.html"
+                  to="/blog-list"
                   aria-label="our blog"
                   title="our blog"
                   className="btn--primary"
@@ -206,12 +205,12 @@ const Pricing = () => {
           </div>
         </div>
         <div className="blog-bg">
-          <img src="assets/images/blog/blog-bg.png" alt="Image" />
+          <img src="/assets/images/blog/blog-bg.png" alt="Imagee" />
         </div>
         <div className="spade">
           <img
-            src="assets/images/blog/spade-base.png"
-            alt="Image"
+            src="/assets/images/blog/spade-base.png"
+            alt="Imagee"
             className="base-img"
           />
         </div>

@@ -1,9 +1,8 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 
 const WorkProcess = () => {
   return (
-    <section className="help-three" style={{paddingTop: "100px"}}>
+    <section className="help-three" style={{ paddingTop: "100px" }}>
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -138,8 +137,8 @@ const WorkProcess = () => {
                   </div>
                 </div>
                 <img
-                  src="assets/images/v-line.png"
-                  alt="Image"
+                  src="/assets/images/v-line.png"
+                  alt="Imagee"
                   className="v-line d-none d-xxl-block"
                 />
               </div>
@@ -153,17 +152,21 @@ const WorkProcess = () => {
         data-aos-duration="1000"
         data-aos-delay="300"
       >
-        <img src="assets/images/bg-one.png" alt="Image" className="bg-help" />
+        <img src="/assets/images/bg-one.png" alt="Imagee" className="bg-help" />
         <div className="poor-boy">
-          <img src="assets/images/poor-boy.png" alt="Image" className="poor" />
           <img
-            src="assets/images/shape-three.png"
-            alt="Image"
+            src="/assets/images/poor-boy.png"
+            alt="Imagee"
+            className="poor"
+          />
+          <img
+            src="/assets/images/shape-three.png"
+            alt="Imagee"
             className="shape"
           />
         </div>
         <div className="parasuit">
-          <img src="assets/images/parasuit.png" alt="Image" />
+          <img src="/assets/images/parasuit.png" alt="Imagee" />
         </div>
       </div>
     </section>

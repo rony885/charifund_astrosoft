@@ -5,12 +5,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const images = [
-  "assets/images/cause/five.png",
-  "assets/images/cause/six.png",
-  "assets/images/cause/seven.png",
-  "assets/images/cause/five.png",
-  "assets/images/cause/six.png",
-  "assets/images/cause/seven.png",
+  "/assets/images/cause/five.png",
+  "/assets/images/cause/six.png",
+  "/assets/images/cause/seven.png",
+  "/assets/images/cause/five.png",
+  "/assets/images/cause/six.png",
+  "/assets/images/cause/seven.png",
 ];
 
 const contents = [

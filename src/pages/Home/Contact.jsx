@@ -1,6 +1,6 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
-/* eslint-disable react/jsx-no-target-blank */
+
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -32,12 +32,12 @@ const Contact = () => {
                   <div className="content">
                     <h6>Location</h6>
                     <p>
-                      <a
-                        href="https://maps.app.goo.gl/Gr9pTNqz5FRNrjQw8"
+                      <Link
+                        to="https://maps.app.goo.gl/Gr9pTNqz5FRNrjQw8"
                         target="_blank"
                       >
                         55 Main street, 2nd block, Melbourne, Australia
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
@@ -48,10 +48,10 @@ const Contact = () => {
                   <div className="content">
                     <h6>Phone</h6>
                     <p>
-                      <a href="tel:2305-587-3407">+1 (368) 567 89 54 </a>
+                      <Link to="tel:2305-587-3407">+1 (368) 567 89 54 </Link>
                     </p>
                     <p>
-                      <a href="tel:2305-587-3407">+236 (456) 896 22</a>
+                      <Link to="tel:2305-587-3407">+236 (456) 896 22</Link>
                     </p>
                   </div>
                 </div>
@@ -62,12 +62,12 @@ const Contact = () => {
                   <div className="content">
                     <h6>Email</h6>
                     <p>
-                      <a href="mailto:support@example.com">example@email.com</a>
+                      <Link to="mailto:support@example.com">example@email.com</Link>
                     </p>
                     <p>
-                      <a href="mailto:support@example.com">
+                      <Link to="mailto:support@example.com">
                         charifund@email.com
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
@@ -78,44 +78,44 @@ const Contact = () => {
                   <div className="content">
                     <h6>Social</h6>
                     <div className="social">
-                      <a
-                        href="https://www.facebook.com/"
+                      <Link
+                        to="https://www.facebook.com/"
                         target="_blank"
                         aria-label="share us on facebook"
                         title="facebook"
                       >
                         <i className="fa-brands fa-facebook-f"></i>
-                      </a>
-                      <a
-                        href="https://vimeo.com/"
+                      </Link>
+                      <Link
+                        to="https://vimeo.com/"
                         target="_blank"
                         aria-label="share us on vimeo"
                         title="vimeo"
                       >
                         <i className="fa-brands fa-vimeo-v"></i>
-                      </a>
-                      <a
-                        href="https://x.com/"
+                      </Link>
+                      <Link
+                        to="https://x.com/"
                         target="_blank"
                         aria-label="share us on twitter"
                         title="twitter"
                       >
                         <i className="fa-brands fa-twitter"></i>
-                      </a>
-                      <a
-                        href="https://www.linkedin.com/"
+                      </Link>
+                      <Link
+                        to="https://www.linkedin.com/"
                         target="_blank"
                         aria-label="share us on linkedin"
                         title="linkedin"
                       >
                         <i className="fa-brands fa-linkedin-in"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="contact-main__thumb cta">
-                <img src="assets/images/contact-thumb.png" alt="Image" />
+                <img src="/assets/images/contact-thumb.png" alt="Imagee" />
               </div>
             </div>
           </div>

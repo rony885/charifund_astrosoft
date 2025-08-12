@@ -4,16 +4,16 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const images = [
-  "assets/images/sponsor/one.png",
-  "assets/images/sponsor/two.png",
-  "assets/images/sponsor/three.png",
-  "assets/images/sponsor/four.png",
-  "assets/images/sponsor/five.png",
-  "assets/images/sponsor/one.png",
-  "assets/images/sponsor/two.png",
-  "assets/images/sponsor/three.png",
-  "assets/images/sponsor/four.png",
-  "assets/images/sponsor/five.png",
+  "/assets/images/sponsor/one.png",
+  "/assets/images/sponsor/two.png",
+  "/assets/images/sponsor/three.png",
+  "/assets/images/sponsor/four.png",
+  "/assets/images/sponsor/five.png",
+  "/assets/images/sponsor/one.png",
+  "/assets/images/sponsor/two.png",
+  "/assets/images/sponsor/three.png",
+  "/assets/images/sponsor/four.png",
+  "/assets/images/sponsor/five.png",
 ];
 
 const Client = () => {

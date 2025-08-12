@@ -48,7 +48,7 @@ const Footer = () => {
             >
               <div className="footer-two__widget-logo">
                 <Link to="index-2">
-                  <img src="assets/images/logo-light.png" alt="Image" />
+                  <img src="/assets/images/logo-light.png" alt="Imagee" />
                 </Link>
               </div>
               <div className="footer-two__widget-content">
@@ -111,27 +111,27 @@ const Footer = () => {
               <div className="footer-two__widget-content">
                 <ul>
                   <li>
-                    <Link to="about-us">
+                    <Link to="/about-us">
                       <i className="fa-solid fa-arrow-right"></i>About Us
                     </Link>
                   </li>
                   <li>
-                    <Link to="blog-list">
+                    <Link to="/blog-list">
                       <i className="fa-solid fa-arrow-right"></i>Our News
                     </Link>
                   </li>
                   <li>
-                    <Link to="our-causes">
+                    <Link to="/our-causes">
                       <i className="fa-solid fa-arrow-right"></i>Our Campaign
                     </Link>
                   </li>
                   <li>
-                    <Link to="faq">
+                    <Link to="/faq">
                       <i className="fa-solid fa-arrow-right"></i>FAQ
                     </Link>
                   </li>
                   <li>
-                    <Link to="contact-us">
+                    <Link to="/contact-us">
                       <i className="fa-solid fa-arrow-right"></i>Get A Quote
                     </Link>
                   </li>
@@ -157,28 +157,28 @@ const Footer = () => {
               <div className="footer-two__widget-content">
                 <ul>
                   <li>
-                    <Link to="our-causes">
+                    <Link to="/our-causes">
                       <i className="fa-solid fa-arrow-right"></i>Our Causes
                     </Link>
                   </li>
                   <li>
-                    <Link to="events">
+                    <Link to="/events">
                       <i className="fa-solid fa-arrow-right"></i>Education
                       Support
                     </Link>
                   </li>
                   <li>
-                    <Link to="our-causes">
+                    <Link to="/our-causes">
                       <i className="fa-solid fa-arrow-right"></i>Our Campaign
                     </Link>
                   </li>
                   <li>
-                    <Link to="our-causes">
+                    <Link to="/our-causes">
                       <i className="fa-solid fa-arrow-right"></i>Food Support
                     </Link>
                   </li>
                   <li>
-                    <Link to="our-causes">
+                    <Link to="/our-causes">
                       <i className="fa-solid fa-arrow-right"></i>Health Support
                     </Link>
                   </li>
@@ -259,10 +259,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="sprade" data-aos="zoom-in" data-aos-duration="1000">
-        <img src="assets/images/sprade.png" alt="Image" className="base-img" />
+        <img src="/assets/images/sprade.png" alt="Imagee" className="base-img" />
       </div>
       <div className="sprade-light" data-aos="zoom-in" data-aos-duration="1000">
-        <img src="assets/images/sprade-light.png" alt="Image" />
+        <img src="/assets/images/sprade-light.png" alt="Imagee" />
       </div>
     </footer>
   );
