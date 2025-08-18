@@ -164,14 +164,14 @@ const Pricing = () => {
           <div className="row">
             <div className="col-12">
               <div className="section__cta cta text-center">
-                <a
-                  href="blog-list.html"
+                <Link
+                  to="/blog-list"
                   aria-label="our blog"
                   title="our blog"
                   className="btn--primary"
                 >
                   View All <i className="fa-solid fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -70,7 +70,7 @@ const Pricing = () => {
                     </div>
                   </div>
                   <img
-                    src="assets/images/blog/spade.png"
+                    src="/assets/images/blog/spade.png"
                     alt="Imagee"
                     className="spade-two"
                   />

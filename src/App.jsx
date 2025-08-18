@@ -56,9 +56,8 @@ function App() {
       once: true,
     });
 
-    // Simulate loading delay or replace with your actual loading logic
     const timer = setTimeout(() => {
-      setLoading(false); // hide loader after 2 seconds (example)
+      setLoading(false);
       AOS.refresh();
     }, 2000);
 
@@ -69,7 +68,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         {loading ? (
-          <Loader /> // show loader while loading is true
+          <Loader />
         ) : (
           <>
             <Top />

@@ -1,6 +1,6 @@
 import React from "react";
 import Odometer from "react-odometerjs";
-import "odometer/themes/odometer-theme-default.css"; // Import odometer CSS theme
+import "odometer/themes/odometer-theme-default.css"; 
 import "aos/dist/aos.css";
 
 const CompletedThings = () => {

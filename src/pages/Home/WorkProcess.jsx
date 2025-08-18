@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WorkProcess = () => {
   return (
@@ -26,14 +27,14 @@ const WorkProcess = () => {
                   </div>
                   <div className="col-12 col-lg-4 col-xxl-5">
                     <div className="help-cta">
-                      <a
-                        href="about-us.html"
+                      <Link
+                        to="/about-us"
                         aria-label="our team"
                         title="our team"
                         className="btn--primary"
                       >
                         More About Us<i className="fa-solid fa-arrow-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

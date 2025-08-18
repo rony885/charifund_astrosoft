@@ -78,7 +78,6 @@ const Header = ({ toggleMenu, menuOpen, toggleMenuu }) => {
                     </Link>
                   </div>
                   <button
-                    // className="open-offcanvas-nav d-flex d-xl-none"
                     className={`open-offcanvas-nav d-flex d-xl-none ${
                       menuOpen ? "open-offcanvas-nav-active" : ""
                     }`}

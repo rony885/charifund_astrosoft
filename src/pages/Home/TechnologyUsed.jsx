@@ -15,26 +15,32 @@ const images = [
 
 const contents = [
   {
+    id: 1,
     title: "old people & Child trouble",
     text: "Child & old care",
   },
   {
+    id: 2,
     title: "old people & Child trouble",
     text: "Child & old care",
   },
   {
+    id: 3,
     title: "old people & Child trouble",
     text: "Child & old care",
   },
   {
+    id: 4,
     title: "old people & Child trouble",
     text: "Child & old care",
   },
   {
+    id: 5,
     title: "old people & Child trouble",
     text: "Child & old care",
   },
   {
+    id: 6,
     title: "old people & Child trouble",
     text: "Child & old care",
   },
@@ -91,7 +97,7 @@ const TechnologyUsed = () => {
                   0: { slidesPerView: 1 },
                 }}
                 autoplay={{
-                  delay:3000,
+                  delay: 3000,
                   disableOnInteraction: false,
                   pauseOnMouseEnter: true, // Optional: pause on hover
                 }}

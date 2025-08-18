@@ -259,7 +259,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="sprade" data-aos="zoom-in" data-aos-duration="1000">
-        <img src="/assets/images/sprade.png" alt="Imagee" className="base-img" />
+        <img
+          src="/assets/images/sprade.png"
+          alt="Imagee"
+          className="base-img"
+        />
       </div>
       <div className="sprade-light" data-aos="zoom-in" data-aos-duration="1000">
         <img src="/assets/images/sprade-light.png" alt="Imagee" />
