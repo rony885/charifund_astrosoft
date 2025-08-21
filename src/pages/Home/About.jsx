@@ -10,7 +10,7 @@ const About = () => {
             <div className="help__thumb">
               <div className="help__thumb-inner">
                 <div className="thumb-top thumb">
-                  <img src="assets/images/help/thumb-top.png" alt="Imagee" />
+                  <img src="/assets/images/help/thumb-top.png" alt="Imagee" />
                 </div>
                 <div
                   className="thumb-lg thumb"
@@ -37,7 +37,7 @@ const About = () => {
                   />
                 </div>
                 <div className="line">
-                  <img src="assets/images/help/line.png" alt="Imagee" />
+                  <img src="/assets/images/help/line.png" alt="Imagee" />
                 </div>
                 <div className="grid-line">
                   <img
@@ -109,7 +109,7 @@ const About = () => {
               </div>
               <div className="help__content-cta cta">
                 <Link
-                  to="about-us.html"
+                  to="/about-us"
                   aria-label="more about us"
                   title="about us"
                   className="btn--primary"

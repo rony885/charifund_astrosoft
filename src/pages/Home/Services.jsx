@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   useEffect(() => {
@@ -105,7 +106,7 @@ const Services = () => {
                 </div>
                 <div className="difference__single-content">
                   <h5>
-                    <a href="cause-details.html">{service.title}</a>
+                    <Link to="/cause-details">{service.title}</Link>
                   </h5>
                   <p>
                     Set up a secure and user-friendly online donation platform

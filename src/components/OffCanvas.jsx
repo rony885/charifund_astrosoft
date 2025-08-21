@@ -12,8 +12,8 @@ const OffCanvas = ({ menuOpenn, closeMenuu }) => {
       >
         <div className="off-canvas__inner">
           <div className="off-canvas__head">
-            <Link to="index-2.html">
-              <img src="assets/images/logo.png" alt="Logo" />
+            <Link to="/">
+              <img src="/assets/images/logo.png" alt="Logo" />
             </Link>
             <button
               onClick={closeMenuu}
