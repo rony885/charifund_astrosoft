@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
+import { IoArrowUpCircleOutline } from "react-icons/io5";
+import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 import styled from "styled-components";
 
 const ScrolltoTop = () => {
@@ -30,8 +32,11 @@ const ScrolltoTop = () => {
   return (
     <>
       {showButton && (
+        // <Button onClick={scrollToTop}>
+        //   <FaArrowUp />
+        // </Button>
         <Button onClick={scrollToTop}>
-          <FaArrowUp />
+          <MdKeyboardDoubleArrowUp size={30} />
         </Button>
       )}
     </>
